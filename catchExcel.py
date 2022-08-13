@@ -18,6 +18,6 @@ class GoogleSheets(GoogleAPIClient):
 if __name__ == '__main__':
     myWorksheet = GoogleSheets()
     pprint(myWorksheet.getWorksheet(
-        spreadsheetId='10l63iMORrhoi1e5iZGs2yNIu9lQQfjVPhcPxmlcaNcY',
-        range='工作表1'
+        spreadsheetId='1-Z71G5IrXe3oUCXqHVSao_lqksUy7u6Hi07YdoTKHZA',
+        range='2F'
     ))
